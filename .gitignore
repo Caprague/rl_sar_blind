@@ -1,0 +1,36 @@
+# Libtorch (install separately)
+library/inference_runtime/libtorch/
+
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+.qoder/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.bak
+*~
+
+# Thirdparty SDKs (install separately or use submodules)
+src/rl_sar/library/thirdparty/gamepad/
+src/rl_sar/library/thirdparty/Lite3_MotionSDK/
+src/rl_sar/library/thirdparty/unitree_legged_sdk-3.2/
+src/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/
